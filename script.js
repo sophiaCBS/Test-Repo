@@ -2,7 +2,8 @@ let songlist =
   [
     'Cruel Summer',
     'Barbie World',
-    'Vampire'
+    'Vampire',
+    'Seven'
   ];
 
 let index = 0;
@@ -26,7 +27,6 @@ function draw() {
   y_value += 30;
   index += 1;
   if (index == songlist.length){
-  noLoop();
+    noLoop();
   }
-
 }
